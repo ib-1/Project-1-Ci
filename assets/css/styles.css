@@ -25,20 +25,23 @@ header {
     width: 100%;
     height: 100px;
     background-color: var(--black-chocolate);
-    border-bottom: 2px solid var(--terra-cotta);
+    border: 2px solid var(--terra-cotta);
+    box-sizing: border-box;
+
 }
 
 /* sizing icon text for the header */
 #icon{
     float: left;
-    margin-left: 60px; 
-    height: 100px;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
 
 #icon h1{
     margin: 0;
-    font-size: 70px;
-    color: var(--terra-cotta);;
+    font-size: 280%;
+    color: var(--terra-cotta);
+    margin-top: 15px;
 }
 /* nav items styling */
 #nav-bar {
@@ -60,3 +63,48 @@ header {
 #nav-items li:hover{
     border-bottom: 1px solid var(--terra-cotta);
 }
+
+/* Styling for title image */
+
+#home-image-outer {
+    width: 100%;
+    height: 700px;
+    background-color: #322A26;
+    border: 2px solid var(--terra-cotta);
+    box-sizing: border-box;
+}
+
+/* adding image */
+
+#home-image {
+    background: url(../images/food-image.jpg) no-repeat center center;
+    height: 100%;
+}
+
+/* styling cover text over image */
+#cover-text {
+    width: 100%px;
+    height: 200px;
+    background-color: rgba(125, 133, 112, 0.8);
+    position: relative;
+    margin: auto;
+    top: 35%;
+    border-radius: 10px;
+}
+
+#cover-text h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+#cover-text ul li{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    list-style-type: none;
+}
+
+
+
