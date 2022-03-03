@@ -1,0 +1,62 @@
+/* creating a color pallete for whole website */
+:root {
+    --black-chocolate: #191308;
+    --black-coffee: #322A26;
+    --terra-cotta: #E07A5F;
+    --white: #fff;
+    --xandu: #7D8570;
+  }
+/* clearing any default margin or padding and setting font family */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* all a tags remove link color and inherit color from parent element */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* nav bar styling */
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--black-chocolate);
+    border-bottom: 2px solid var(--terra-cotta);
+}
+
+/* sizing icon text for the header */
+#icon{
+    float: left;
+    margin-left: 60px; 
+    height: 100px;
+}
+
+#icon h1{
+    margin: 0;
+    font-size: 70px;
+    color: var(--terra-cotta);;
+}
+/* nav items styling */
+#nav-bar {
+    float: right;
+    margin-right: 60px;
+}
+
+#nav-items li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 2em;
+    color: var(--terra-cotta);
+    line-height: 60px;
+    
+}
+
+#nav-items li:hover{
+    border-bottom: 1px solid var(--terra-cotta);
+}
