@@ -1,8 +1,14 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap');
+
 
 /* creating root colors so colors are consistent within the web page for a consistent design */
 
 :root{
-    --black: #122344;
+    --light-goldenrod-yellow: #F6FEDB;
+    --forest-green-traditional: #1E441E;
+    --pakistan-green: #2A7221;
+    --lime-green: #31cb00;
 }
 
 /* removing any defualt margins/padding within the body */
@@ -10,6 +16,6 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Anton','Roboto';
+    background-color: var(--light-goldenrod-yellow);
 }
-
-/* https://www.pexels.com/photo/data-codes-through-eyeglasses-577585/ */
