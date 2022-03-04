@@ -51,4 +51,51 @@ body {
 
   /* creating container space for the title image section */
 
+  #hack-image-container {
+    width: 100%;
+    height: 600px;
+    background-color: beige;
+    margin-top: 78px; /* the navbars height is 78 px so i push this container down by 78px to view full content */
+    overflow: hidden;
+  }
+
+  /* adding image */
+  /* one problem i faced was the image file being too large and the web browser having to resize it so it would take a long time to fix it, so I rezised the image on photoshop*/
   
+  #hack-image {
+    background: url(../images/hack-image.jpg) no-repeat center center;
+    height: 100%;
+    background-size: cover;
+
+    /* animates zoom effor on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+
+  /* styling cover text */
+
+  #hack-cover-text {
+    text-align: center; 
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 1.5em;
+   }
+
+  /* Using code from the Love running project to give the image a zoom affect when loading the page */
+
+/* creates the level of zoom for hero image */
+
+@keyframes hero-zoom {
+from{
+    transform: scale(1);
+}
+to{
+    transform: scale(1.1);
+}
+}
+
+
