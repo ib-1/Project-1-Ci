@@ -114,7 +114,7 @@ to{
 
 #life-hack-container {
   width: 100%;
-  height: 1200px;
+  height: 1620px;
   background-color: black;
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -137,10 +137,11 @@ to{
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom:  60px;
   border-bottom: 3px solid white;
+  height: 400px;
 }
 
 .left-hack-text {
-  width: 33%;
+  width: 80%;
   text-align: center;
   font-size: 1.5em;
   margin: auto;
@@ -168,7 +169,7 @@ to{
 }
 
 .right-hack-text {
-  width: 33%;
+  width: 80%;
   text-align: center;
   font-size: 1.5em;
   margin: auto;
@@ -178,18 +179,54 @@ to{
   padding-bottom: 10px;
 }
 
+
 #hack2-img {
   background: url('../images/github-icon.jpg') no-repeat center center;
   height: 100%;
   border-radius: 10px;
-
 }
 
 #hack3-img {
   background: url('../images/frog-icon.jpg') no-repeat center center;
   height: 100%;
   border-radius: 10px;
-  transform: -calc(500/300);
+}
 
+#mid-hack {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom:  60px;
+  border-bottom: 3px solid white;
+  height: 400px;
+  background-color: white;
+  color: black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+}
 
+/* styling for social media container */
+#social-media-container {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+
+#social-icons {
+  margin: 0;
+  text-align: center;
+  font-size: 200%;
+  color: black;
+  padding-top: 200px;
+}
+
+#social-icons li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto;
+  margin-right: 50px;
+}
+
+#social-icons li a{
+  color: black;
 }
