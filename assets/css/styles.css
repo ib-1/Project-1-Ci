@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap');
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* removing any defualt margins/padding within the body */
+
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Anton','Roboto';
-    ;
+    background-color: black;
 }
 
 /* styling for nav bar */
@@ -19,6 +24,7 @@ body {
   letter-spacing: 20px;
   text-transform: uppercase;
   margin-left: 50px;
+  margin-top: 20px;
 }
 
 #navbar{
@@ -30,64 +36,70 @@ body {
     width: 100%;
   }
   
-  .buttonDesign{
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 15px;
-    border: 2px solid white;
-    background-color: white;
-    border-radius: 3px;
-    text-decoration: none;
-    color: black;
-    margin-right: 30px;
-  }
+.buttonDesign{
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+}
  
-  .buttonDesign:hover{
-    background-color: black;
-    border: 2px solid white;
-    color: white;
-  }
+.buttonDesign:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
 
-  /* creating container space for the title image section */
+/* creating container space for the title image section */
 
-  #hack-image-container {
-    width: 100%;
-    height: 600px;
-    background-color: beige;
-    margin-top: 78px; /* the navbars height is 78 px so i push this container down by 78px to view full content */
-    overflow: hidden;
-  }
+#hack-image-container {
+  width: 100%;
+  height: 600px;
+  background-color: beige;
+  margin-top: 78px; /* the navbars height is 78 px so i push this container down by 78px to view full content */
+  overflow: hidden;
+}
 
   /* adding image */
   /* one problem i faced was the image file being too large and the web browser having to resize it so it would take a long time to fix it, so I rezised the image on photoshop*/
   
-  #hack-image {
-    background: url(../images/hack-image.jpg) no-repeat center center;
-    height: 100%;
-    background-size: cover;
+#hack-image {
+  background: url(../images/hack-image.jpg) no-repeat center center;
+  height: 100%;
+  background-size: cover;
 
     /* animates zoom effor on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
   }
 
   /* styling cover text */
 
-  #hack-cover-text {
-    text-align: center; 
-    position: absolute;
-    top: 300px;
-    left: 50px;
-    right: 50px;
-    background-color: rgba(255, 255, 255, 0.6);
-    font-size: 1.5em;
-   }
+#hack-cover-text {
+  text-align: center; 
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  right: 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5em;
+}
+
+#hack-cover-text p{
+  margin-bottom: 30px;
+
+
+}  
 
   /* Using code from the Love running project to give the image a zoom affect when loading the page */
 
-/* creates the level of zoom for hero image */
+  /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
 from{
@@ -98,4 +110,86 @@ to{
 }
 }
 
+/* creating section for life hacks */
 
+#life-hack-container {
+  width: 100%;
+  height: 1200px;
+  background-color: black;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#life-hack-container h2,h1,h3,p {
+  margin: 0;
+}
+
+#hack-title {
+  text-align: center;
+  font-size: 400%;
+}
+
+  /* styling for the first life hack */
+
+.life-hack-temp{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom:  60px;
+  border-bottom: 3px solid white;
+}
+
+.left-hack-text {
+  width: 33%;
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+.left-hack-text h3 {
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+
+.hack-img-border{
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#hack-img {
+  background: url('../images/one-tab.jpg') no-repeat center center;
+  height: 100%;
+  border-radius: 10px;
+
+}
+
+.right-hack-text {
+  width: 33%;
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+.right-hack-text p{
+  padding-bottom: 10px;
+}
+
+#hack2-img {
+  background: url('../images/github-icon.jpg') no-repeat center center;
+  height: 100%;
+  border-radius: 10px;
+
+}
+
+#hack3-img {
+  background: url('../images/frog-icon.jpg') no-repeat center center;
+  height: 100%;
+  border-radius: 10px;
+  transform: -calc(500/300);
+
+
+}
