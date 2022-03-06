@@ -18,19 +18,19 @@
     </nav>
 
     <div id="main-box">
-        <form id="survey-form" method="POST" action="#">
+        <form id="survey-form" method="POST" action="https://formdump.codeinstitute.net/">
             <label for="name" class="label-style">Name</label>
-            <input type="text" placeholder="Enter your name" id="name" class="the-inputs" required>
+            <input type="text" placeholder="Enter your name" id="name" class="the-inputs" name="name" required >
         
             <label for="email" class="label-style">Email</label>
-            <input type="email" placeholder="Enter your Email" id="email" class="the-inputs" required>
+            <input type="email" placeholder="Enter your Email" id="email" class="the-inputs" name="email" required>
       
             <label for="number" class="label-style">Age (optional)</label>
-            <input type="number" placeholder="Age" id="number" class="the-inputs" min="10" max="100">
+            <input type="number" placeholder="Age" id="number" class="the-inputs" min="10" max="80" name="Age">
           
             <label for="suggestions" class="label-style">Any comments or suggestions?</label>
             <textarea id="suggestions" name="suggestions" placeholder="Enter your comment here..." required></textarea>
-            <input type="submit" id="submit">    
+            <input type="submit" id="submit" value="submit">    
         </form>
     </div>
 
