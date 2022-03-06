@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Life Hacks</title>
+</head>
+<body id="feedback-body">
+    <nav id="navbar">
+        <h1 id="logo">Life-Hacks</h1>
+        <div id="navSection">
+            <a href="index.html"><li class="buttonDesign">Home</li></a>
+            <a href="index.html"><li class="buttonDesign">Life Hacks</li></a>
+            <a href="feedback.html"><li class="buttonDesign">Feedback</li></a>
+        </div>
+    </nav>
+
+    <div id="main-box">
+        <form id="survey-form" method="POST" action="#">
+            <label for="name" class="label-style">Name</label>
+            <input type="text" placeholder="Enter your name" id="name" class="the-inputs" required>
+        
+            <label for="email" class="label-style">Email</label>
+            <input type="email" placeholder="Enter your Email" id="email" class="the-inputs" required>
+      
+            <label for="number" class="label-style">Age (optional)</label>
+            <input type="number" placeholder="Age" id="number" class="the-inputs" min="10" max="100">
+          
+            <label for="suggestions" class="label-style">Any comments or suggestions?</label>
+            <textarea id="suggestions" name="suggestions" placeholder="Enter your comment here..." required></textarea>
+            <input type="submit" id="submit">    
+        </form>
+    </div>
+
+    <section id="social-media-container">
+        <ul id="social-icons">
+            <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+        <script src="https://kit.fontawesome.com/adbe32f668.js" crossorigin="anonymous"></script>
+    </section>
+</body>
