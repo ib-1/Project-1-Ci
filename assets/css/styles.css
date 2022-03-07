@@ -68,8 +68,8 @@ body {
   /* adding image */
   /* one problem i faced was the image file being too large and the web browser having to resize it so it would take a long time to fix it, so I rezised the image on photoshop*/
   
-#hack-image {
-  background: url(../images/hack-image.jpg) no-repeat center center;
+#main-hack-image {
+  background: url('../images/hack-image.jpg') no-repeat center center;
   height: 100%;
   background-size: cover;
 
@@ -237,6 +237,7 @@ to{
   position: relative;
   background-size: cover;
   opacity: 1;
+  background-color: wheat;
 }
 
 /* form styling */
