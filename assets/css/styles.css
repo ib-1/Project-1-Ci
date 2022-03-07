@@ -243,6 +243,12 @@ to{
 /* form styling */
 
 
+#form-title{
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+
 #main-box{
   display: block;
   margin: auto;
