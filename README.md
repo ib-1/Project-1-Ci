@@ -4,7 +4,7 @@
 
 This webpage is a simple webpage displaying some lifehacks that a programmer could use to be more efficient. This webpage is responsive so users can view it on a laptop, tablet and mobile devices.
 
-![Displaying page layout on multipel pages](/assets/images/am_i_responsiveLayout.png)
+![image](/assets/images/am_i_responsiveLayout.png)
 
 ## Accessibility
 
@@ -14,4 +14,14 @@ I used the semantic HTML markup  to help the browser understand the context of t
 
 I’ve used `role` and `alt` Attributes on all the background images or images used to explain what the images are.
 
+## Accessibility Score: Google Lighthouse Test
 
+The site ran through Google Lighthouse for Desktop and Mobile:
+
+### Desktop Scores:
+
+![image](assets/images/lighthouse-test-score-desktop.png)
+
+### Mobile Scores:
+
+![image](assets/images/lighthouse-test-score-mobile.png)
