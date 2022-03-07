@@ -33,3 +33,11 @@ I've added `meta data` and a `title` to the .html pages. This helps Search engin
 I added a `description`, `keywords` and `author`. Search Engines will display the title and description information in their search results.
 
 ![image](assets/images/meta-data.png)
+
+## Features List
+
+### 1. Hover State on Buttons
+
+The navigation buttons on the site have a hover site which clearly shows that the button is interactable.
+
+![image]()
