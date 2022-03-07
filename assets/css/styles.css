@@ -29,7 +29,6 @@ body {
 
 #navbar{
     background-color: black;
-    color: black;
     text-align: right;
     position: fixed;
     top: 0;  
@@ -42,7 +41,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 15px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   background-color: white;
   border-radius: 3px;
   text-decoration: none;
@@ -196,19 +195,6 @@ to{
   border-radius: 10px;
 }
 
-#mid-hack {
-  padding-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom:  60px;
-  border-bottom: 3px solid white;
-  height: 400px;
-  background-color: white;
-  color: black;
-  border-left: 4px solid black;
-  border-right: 4px solid black;
-}
-
 /* styling for social media container */
 #social-media-container {
   width: 100%;
@@ -221,7 +207,7 @@ to{
   text-align: center;
   font-size: 200%;
   color: black;
-  padding-top: 200px;
+  padding-top: 100px;
   z-index: 3;
 }
 
@@ -234,6 +220,13 @@ to{
 
 #social-icons li a{
   color: black;
+}
+
+#social-title {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 3em;
 }
 
 /* feeback page styling */
@@ -291,6 +284,7 @@ to{
   margin-top: 0.8em;
 }
 
+/* making page responsive with smaller screen size */
 
 @media screen and (max-width: 800px){
   #navbar{
