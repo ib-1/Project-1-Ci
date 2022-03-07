@@ -25,3 +25,11 @@ The site ran through Google Lighthouse for Desktop and Mobile:
 ### Mobile Scores:
 
 ![image](assets/images/lighthouse-test-score-mobile.png)
+
+## SEO (Search Engine Optimisation)
+
+I've added `meta data` and a `title` to the .html pages. This helps Search engines like Google when looking for matches based on what the user searches for. 
+
+I added a `description`, `keywords` and `author`. Search Engines will display the title and description information in their search results.
+
+![image](assets/images/meta-data.png)
