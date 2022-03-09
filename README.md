@@ -4,7 +4,9 @@
 
 This webpage is a simple webpage displaying some lifehacks that a programmer could use to be more efficient. This webpage is responsive so users can view it on a laptop, tablet and mobile devices.
 
-![image](/assets/images/am_i_responsiveLayout.png)
+![image](/assets/images/am_i_responsive-layout.png)
+
+<hr>
 
 ## Accessibility
 
@@ -13,6 +15,8 @@ Added ARIA attribute to all links on HTML pages. This helps people with disabili
 I used the semantic HTML markup  to help the browser understand the context of the content and also help accessibility for users with disabilities.
 
 I’ve used `role` and `alt` Attributes on all the background images or images used to explain what the images are.
+
+<hr>
 
 ## Accessibility Score: Google Lighthouse Test
 
@@ -26,6 +30,8 @@ The site ran through Google Lighthouse for Desktop and Mobile:
 
 ![image](assets/images/lighthouse-test-score-mobile.png)
 
+<hr>
+
 ## SEO (Search Engine Optimisation)
 
 I've added `meta data` and a `title` to the .html pages. This helps Search engines like Google when looking for matches based on what the user searches for. 
@@ -33,6 +39,8 @@ I've added `meta data` and a `title` to the .html pages. This helps Search engin
 I added a `description`, `keywords` and `author`. Search Engines will display the title and description information in their search results.
 
 ![image](assets/images/meta-data.png)
+
+<hr>
 
 ## Features List
 
@@ -42,9 +50,11 @@ The navigation buttons on the site have a hover site which clearly shows that th
 
 ![image](assets/images/hover-state.png)
 
-## 2. A Feedback page 
+## 2. A contact us page
 
-This allows users to give feedback on what they think of the webpage
+Contact us page allows encourages users to get in touch to see if they have any feedback or any suggestions to help the page
+
+Users could report bugs they find within the page so it could fixed for better user expierience
 
 ![image](assets/images/feedback-page.png)
 
@@ -54,8 +64,9 @@ This is usefull because if the user wants to follow any social media acounts by 
 
 ![image](assets/images/social-media-icons.png)
 
+<hr>
 
-### Responsive Testing
+## Responsive Testing
 
 I have tested that the site is responsive by applying specific styles for different `CSS breakpoints`
 
@@ -65,7 +76,7 @@ I have tested that the site is responsive by applying specific styles for differ
 
 I used the Chrome inspect element to check the different CSS breakpoints.
 
-### Feedback Submission
+### Contact-us Submission
 
 I've tested the validation on the booking form so the user cannot submit the form unless all fields have been filled out. The prevents missing information that is needed to make the booking.
 ![image](assets/images/feedback-submission.png)
@@ -93,3 +104,8 @@ I've tested the validation on the booking form so the user cannot submit the for
 The site was published via Github Pages. You can see the site live 
 <a href="https://ib-1.github.io/Project-1-Ci/" target="_blank">here</a>.
 
+## Credit
+
+<li>Used code from love running project for the animation zoom</li>
+<li>Title image and feedback background image were taken from pexels</li>
+<li>Used code support website such as Stack overflow and W3school to help code my project</li>
