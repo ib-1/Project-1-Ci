@@ -88,3 +88,8 @@ I've tested the validation on the booking form so the user cannot submit the for
 ![image](assets/images/html-validation.png)
 ![image](assets/images/css-validation.png)
 
+## Deployment
+
+The site was published via Github Pages. You can see the site live 
+<a href="https://ib-1.github.io/Project-1-Ci/" target="_blank">here</a>.
+
